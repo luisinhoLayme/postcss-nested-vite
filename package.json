@@ -1,0 +1,28 @@
+{
+  "name": "postcss-vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^8.4.1",
+    "sharp": "^0.32.1",
+    "the-new-css-reset": "^1.8.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-image-optimizer": "^1.1.5",
+    "vite-plugin-minify": "^1.5.2",
+    "vite-plugin-pug-transformer": "^1.0.3",
+    "vsgo": "^0.0.4"
+  }
+}

@@ -1,0 +1,11 @@
+
+:root {
+  --bg-color: #242424;
+  --fg-color: #f8f8f8;
+}
+
+@define-mixin sm {
+  @media (min-width: 600px) {
+    @mixin-content;
+  }
+}
