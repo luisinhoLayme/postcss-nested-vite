@@ -1,0 +1,17 @@
+
+.app {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  width: 90%;
+  margin: 0 auto;
+  &__title {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 700;
+    @media (--screen-sm) {
+      font-size: 5rem;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.footer {
+  color: var(--color-tan-40);
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 1.5rem;
+}

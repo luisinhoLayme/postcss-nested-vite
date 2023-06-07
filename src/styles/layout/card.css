@@ -1,0 +1,8 @@
+
+.card {
+  display: grid;
+  gap: 1rem;
+  @media (--screen-sm) {
+    grid-template-columns: repeat(2, max-content);
+  }
+}

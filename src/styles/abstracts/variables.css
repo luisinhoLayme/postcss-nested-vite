@@ -1,0 +1,25 @@
+
+@custom-media --screen-sm (width >= 576px);
+@custom-media --screen-md (width >= 768px);
+@custom-media --screen-lg (width >= 992px);
+@custom-media --screen-xl (width >= 1200px);
+@custom-media --screen-xxl (width >= 1440px);
+@custom-media --screen-xxxl (width >= 1920px);
+
+@custom-media --hover (hover: hover);
+
+:root {
+
+  /*--------- Colors ------- */
+
+  /*---------- Fonts ----------- */
+  --font-p: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-s: Roboto, cursive;
+
+  /*---------- Utilites ---------*/
+  /* Shadow dark */
+  --box-shadow: .1rem .1rem .2rem var(--color-tan-50)inset,
+        -.2rem -.2rem .3rem var(--color-tan-60) inset;
+  --box-shadow-hover: -.1rem -.1rem .2rem var(--color-tan-50)inset,
+        .2rem .2rem .3rem var(--color-tan-60) inset;
+}

@@ -1,6 +1,7 @@
-# Postcss-nested and pug
+# Postcss-nested + pug + ts
 
 ```
 pnpm install
 pnpm dev
 ```
+

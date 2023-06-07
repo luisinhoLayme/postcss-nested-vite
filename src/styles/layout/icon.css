@@ -1,0 +1,9 @@
+
+.icon {
+  --m: 27rem;
+  width: var(--m);
+  height: var(--m);
+  @media (--screen-sm){
+    --m: 35rem;
+  }
+}

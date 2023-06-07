@@ -1,0 +1,22 @@
+@import '../abstracts/mixins.css';
+
+.button {
+  background-color: var(--color-tan-70);
+  border: none;
+  border-radius: 1rem;
+  color: var(--color-tan-40);
+  cursor: pointer;
+  outline: none;
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  transition: box-shadow .4s ease-in-out;
+  @mixin shadow;
+  @media (--hover) {
+    &:hover {
+      @mixin shadow-hover;
+    }
+  }
+}
